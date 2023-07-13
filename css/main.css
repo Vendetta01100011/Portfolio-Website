@@ -6,7 +6,7 @@ body {
 }
 .v3_2 {
   width: 100%;
-  height: 1080px;
+  height: 1024px;
   background: linear-gradient(rgba(29,27,40,1), rgba(9,9,10,0.3256593346595764));
   opacity: 1;
   position: relative;
@@ -20,9 +20,9 @@ body {
   height: 96px;
   background: rgba(56,56,56,0.36000001430511475);
   opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
+  position: absolute;
+  top: 2px;
+  left: 410px;
   overflow: hidden;
 }
 .v4_4 {
@@ -38,36 +38,24 @@ body {
   text-align: left;
 }
 .v4_18 {
-  width: 810px;
-  height: 100%;
+  width: 618px;
+  height: 984px;
   background: url("../images/v4_18.png");
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
   opacity: 1;
   position: absolute;
-  top: 42px;
-  left: 1001px;
+  top: 40px;
+  left: 783px;
   border: 0px solid rgba(0,0,0,1);
   overflow: hidden;
-}
-.v4_5 {
-  width: 100%;
-  color: rgba(255,255,255,1);
-  position: absolute;
-  top: 307px;
-  left: 142px;
-  font-family: Antonio;
-  font-weight: Regular;
-  font-size: 96px;
-  opacity: 1;
-  text-align: left;
 }
 .v4_6 {
   width: 815px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 507px;
+  top: 439px;
   left: 48px;
   font-family: Roboto;
   font-weight: Condensed Regular;
@@ -82,8 +70,8 @@ body {
   width: 97px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 28px;
-  left: 951px;
+  top: 26px;
+  left: 541px;
   font-family: Roboto;
   font-weight: Medium;
   font-size: 36px;
@@ -94,8 +82,8 @@ body {
   width: 97px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 28px;
-  left: 1075px;
+  top: 26px;
+  left: 665px;
   font-family: Roboto;
   font-weight: Medium;
   font-size: 36px;
@@ -106,8 +94,8 @@ body {
   width: 138px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 27px;
-  left: 1199px;
+  top: 25px;
+  left: 789px;
   font-family: Roboto;
   font-weight: Medium;
   font-size: 36px;
@@ -118,8 +106,8 @@ body {
   width: 132px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 27px;
-  left: 1364px;
+  top: 25px;
+  left: 954px;
   font-family: Roboto;
   font-weight: Medium;
   font-size: 36px;
@@ -130,8 +118,8 @@ body {
   width: 127px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 28px;
-  left: 1691px;
+  top: 26px;
+  left: 1281px;
   font-family: Roboto;
   font-weight: Medium;
   font-size: 36px;
@@ -142,8 +130,114 @@ body {
   width: 141px;
   color: rgba(255,255,255,1);
   position: absolute;
-  top: 28px;
-  left: 1523px;
+  top: 26px;
+  left: 1113px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v17_3 {
+  width: 100%;
+  height: 96px;
+  background: rgba(56,56,56,0.36000001430511475);
+  opacity: 1;
+  position: absolute;
+  top: 2px;
+  left: 410px;
+  overflow: hidden;
+}
+.v17_4 {
+  width: 408px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 223px;
+  left: 142px;
+  font-family: Roboto;
+  font-weight: Regular;
+  font-size: 36px;
+  opacity: 1;
+  text-align: left;
+}
+.v17_6 {
+  width: 100%;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 307px;
+  left: 142px;
+  font-family: Antonio;
+  font-weight: Regular;
+  font-size: 64px;
+  opacity: 1;
+  text-align: left;
+}
+.v17_8 {
+  width: 97px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 26px;
+  left: 541px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v17_9 {
+  width: 97px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 26px;
+  left: 665px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v17_10 {
+  width: 138px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 789px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v17_11 {
+  width: 132px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 25px;
+  left: 954px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v17_12 {
+  width: 127px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 26px;
+  left: 1281px;
+  font-family: Roboto;
+  font-weight: Medium;
+  font-size: 36px;
+  opacity: 1;
+  text-align: center;
+}
+.v17_13 {
+  width: 141px;
+  color: rgba(255,255,255,1);
+  position: absolute;
+  top: 26px;
+  left: 1113px;
   font-family: Roboto;
   font-weight: Medium;
   font-size: 36px;
