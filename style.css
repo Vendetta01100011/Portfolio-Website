@@ -1,0 +1,15 @@
+.home-page, .home-page * { box-sizing: border-box; }.home-page {border-style: solid; border-color: var(--home-page-stroke, #000000); border-width: 1px; width: 1440px; height: 750px; position: relative; box-shadow: var(--home-page-box-shadow, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)); overflow-y: auto;}
+ .rectangle-3 {background: #ffffff; width: 1440px; height: 1024px; position: absolute; left: 0px;top: 0px;}
+ .rectangle-1 {background: #aa8d78; width: 1440px; height: 68px; position: absolute; left: 0px;top: 0px;}
+ .frame-1 {display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 1120px; height: 53px; position: absolute; left: calc(50% - 567px);top: 8px;}
+ .home {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
+ .about {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
+ .services {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
+ .resume {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
+ .portfolio {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
+ .contact {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
+ .ellipse-1 {border-radius: 50%; width: 226px; height: 226px; position: absolute; left: 600px;top: 119px;}
+ .hello-i-m-anim-a-passionate-civil-engineer-hailing-from-kathmandu-university-having-recently-graduated-with-a-degree-in-civil-engineering-i-am-thrilled-to-embark-on-a-journey-of-turning-ideas-into-reality-and-contributing-to-the-world-of-infrastructure-development {color: #2d2d2d; text-align: center; font: 200 32px/45px 'Overpass', sans-serif; position: absolute; left: 160px;top: 429px; width: 1120px; height: 225px; display: flex;align-items: center;justify-content: center}
+ .anim-rajbahak-shrestha {color: #7d0000; text-align: center; font: 400 64px/15px 'Permanent Marker', sans-serif; position: absolute; left: 238px;top: 384px; width: 949px; height: 16px; display: flex;align-items: center;justify-content: center}
+ .frame-2 {background: #ffffff; border-radius: 30px; border-style: solid; border-color: #000000; border-width: 2px; width: 321px; height: 58px; position: absolute; left: 552px;top: calc(50% - -281px);}
+ .more-about-me {color: #000000; text-align: center; font: 400 32px 'Prompt', sans-serif; position: absolute; left: calc(50% - 346.5px);top: -12px; width: 694px; height: 80px; display: flex;align-items: center;justify-content: center}
