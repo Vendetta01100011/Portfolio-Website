@@ -1,15 +1,139 @@
-.home-page, .home-page * { box-sizing: border-box; }.home-page {border-style: solid; border-color: var(--home-page-stroke, #000000); border-width: 1px; width: 1440px; height: 750px; position: relative; box-shadow: var(--home-page-box-shadow, 0px 4px 4px 0px rgba(0, 0, 0, 0.25)); overflow-y: auto;}
- .rectangle-3 {background: #ffffff; width: 1440px; height: 1024px; position: absolute; left: 0px;top: 0px;}
- .rectangle-1 {background: #aa8d78; width: 1440px; height: 68px; position: absolute; left: 0px;top: 0px;}
- .frame-1 {display: flex; flex-direction: row; align-items: center; justify-content: space-between; width: 1120px; height: 53px; position: absolute; left: calc(50% - 567px);top: 8px;}
- .home {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
- .about {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
- .services {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
- .resume {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
- .portfolio {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
- .contact {color: #ffffff; text-align: center; font: 500 32px 'Roboto', sans-serif; position: relative;}
- .ellipse-1 {border-radius: 50%; width: 226px; height: 226px; position: absolute; left: 600px;top: 119px;}
- .hello-i-m-anim-a-passionate-civil-engineer-hailing-from-kathmandu-university-having-recently-graduated-with-a-degree-in-civil-engineering-i-am-thrilled-to-embark-on-a-journey-of-turning-ideas-into-reality-and-contributing-to-the-world-of-infrastructure-development {color: #2d2d2d; text-align: center; font: 200 32px/45px 'Overpass', sans-serif; position: absolute; left: 160px;top: 429px; width: 1120px; height: 225px; display: flex;align-items: center;justify-content: center}
- .anim-rajbahak-shrestha {color: #7d0000; text-align: center; font: 400 64px/15px 'Permanent Marker', sans-serif; position: absolute; left: 238px;top: 384px; width: 949px; height: 16px; display: flex;align-items: center;justify-content: center}
- .frame-2 {background: #ffffff; border-radius: 30px; border-style: solid; border-color: #000000; border-width: 2px; width: 321px; height: 58px; position: absolute; left: 552px;top: calc(50% - -281px);}
- .more-about-me {color: #000000; text-align: center; font: 400 32px 'Prompt', sans-serif; position: absolute; left: calc(50% - 346.5px);top: -12px; width: 694px; height: 80px; display: flex;align-items: center;justify-content: center}
+.home, .home * { box-sizing: border-box; }.home {background: #fdfceb; width: 1440px; height: 3984px; position: relative; overflow: hidden;}
+ .anim-rajbahak-shrestha {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px 'Poppins', sans-serif; position: absolute; left: 97px;top: 34px;}
+ .hello-i-m-anim {color: var(--dark-blue, #03045e); text-align: left; font: 500 28px 'Poppins', sans-serif; position: absolute; left: 97px;top: 288px;}
+ .based-in-kathmandu {color: var(--dark-blue, #03045e); text-align: left; font: 500 28px 'Poppins', sans-serif; position: absolute; left: 97px;top: 571px;}
+ .hello-and-welcome-to-my-website-i-m-anim-rajbahak-shrestha-a-passionate-civil-engineer-hailing-from-kathmandu-university-having-recently-graduated-with-a-degree-in-civil-engineering-i-am-thrilled-to-embark-on-a-journey-of-turning-ideas-into-reality-and-contributing-to-the-world-of-infrastructure-development-with-a-strong-academic-foundation-and-hands-on-experience-i-am-equipped-with-the-knowledge-and-skills-to-tackle-diverse-engineering-challenges {color: var(--dark-blue, #03045e); text-align: justified; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 97px;top: 1137px; width: 1187px;}
+ .internship-at-sanima-middle-tamor-hydropower-ltd {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 123px;top: 2451px; width: 900px;}
+ .engineer-at-cped-soed-ku {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 123px;top: 2533px; width: 900px;}
+ .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-amet-vulputate-tristique-quam-felis-id-phasellus-dui-orci-vulputate-consequat-nulla-proin-id-sit-scelerisque-neque-proin-bibendum-diam {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 596px;top: 3572px; width: 640px;}
+ .anim-shrest-gmail-com {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 596px;top: 3769px;}
+ .twitter-com-anim-shrest {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 596px;top: 3813px;}
+ .behance-com-johndoe {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 596px;top: 3857px;}
+ .some-case-study {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/44px 'Poppins', sans-serif; position: absolute; left: 97px;top: 3151px;}
+ .some-case-study2 {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/44px 'Poppins', sans-serif; position: absolute; left: 777px;top: 3151px;}
+ .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-sed-aliquam-sollicitudin-rhoncus-morbi-tincidunt-quam-sem-elit-a-convallis-eget-ipsum-velit-vitae-eu-nunc-consequat-at {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px/32px 'Poppins', sans-serif; position: absolute; left: 97px;top: 3195px; width: 560px;}
+ .lorem-ipsum-dolor-sit-amet-consectetur-adipiscing-elit-ut-sed-aliquam-sollicitudin-rhoncus-morbi-tincidunt-quam-sem-elit-a-convallis-eget-ipsum-velit-vitae-eu-nunc-consequat-at2 {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px/32px 'Poppins', sans-serif; position: absolute; left: 777px;top: 3195px; width: 560px;}
+ .november-24-2019 {color: var(--dark-blue, #03045e); text-align: left; font: 400 italic 15px/44px 'Poppins', sans-serif; position: absolute; left: 97px;top: 3107px;}
+ .november-24-20192 {color: var(--dark-blue, #03045e); text-align: left; font: 400 italic 15px/44px 'Poppins', sans-serif; position: absolute; left: 777px;top: 3107px;}
+ .sap-2000 {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 424.37px;top: 1614px; width: 113.53px;}
+ .etabs {color: var(--dark-blue, #03045e); text-align: center; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 681px;top: 1614px; width: 78.51px;}
+ .auto-cad {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 910px;top: 1614px; width: 117.77px;}
+ .blender {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 1152px;top: 1614px; width: 99.73px;}
+ .premiere-pro {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 1121px;top: 1702px; width: 165.52px;}
+ .python {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 157px;top: 1696px; width: 91.25px;}
+ .qgis {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 450px;top: 1696px; width: 62.6px;}
+ .open-foam {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 663px;top: 1699px; width: 144.3px;}
+ .rs-2 {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 946px;top: 1696px; width: 46.68px;}
+ .microsoft-package {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 98px;top: 1614px; width: 241px;}
+ .civil-engineer {color: var(--dark-blue, #03045e); text-align: left; font: 800 100px/116px 'Poppins', sans-serif; position: absolute; left: 97px;top: 329px; width: 616px; display: flex;align-items: flex-end;justify-content: flex-start}
+ .about {color: var(--too-light-yellow, #f7f197); text-align: left; font: 800 100px/116px 'Poppins', sans-serif; position: absolute; left: 97px;top: 989px; display: flex;align-items: flex-end;justify-content: flex-start}
+ .work {color: var(--too-light-yellow, #f7f197); text-align: left; font: 800 100px/116px 'Poppins', sans-serif; position: absolute; left: 97px;top: 2303px; display: flex;align-items: flex-end;justify-content: flex-start}
+ .skills {color: var(--too-light-yellow, #f7f197); text-align: left; font: 800 100px/116px 'Poppins', sans-serif; position: absolute; left: 97px;top: 1464px; display: flex;align-items: flex-end;justify-content: flex-start}
+ .contact {color: var(--too-light-yellow, #f7f197); text-align: left; font: 800 100px/116px 'Poppins', sans-serif; position: absolute; left: 97px;top: 3415px; display: flex;align-items: flex-end;justify-content: flex-start}
+ .group-1 {position: absolute; inset: 0;}
+ .home2 {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 582px;top: 37px;}
+ .work2 {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 812px;top: 37px;}
+ .about2 {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 697px;top: 37px;}
+ .twitter-3-1 {position: absolute; left: 1253px;top: 44px; overflow: visible;}
+ .instagram-1 {position: absolute; left: 1232px;top: 44px; overflow: visible;}
+ .unsplash-2-xht-5-d-22-y-0-i {background: #f5ee84; width: 440px; height: 314px; position: absolute; left: 97px;top: 3580px;}
+ .image {width: 506px; height: 509px; position: absolute; left: 831px;top: 191px;}
+ .mask-group {position: absolute; left: 13px;top: 0px; overflow: visible;}
+ .vector3 {position: absolute; left: 0px;top: 16px; overflow: visible;}
+ .group-6 {position: absolute; inset: 0;}
+ .rectangle-13 {background: var(--dark-brown, #474306); width: 5px; height: 30px; position: absolute; left: 831.2px;top: 564px; transform-origin: 0 0; transform: rotate(24deg) scale(1, 1);}
+ .rectangle-14 {background: var(--dark-brown, #474306); width: 5px; height: 30px; position: absolute; left: 852.97px;top: 564px; transform-origin: 0 0; transform: rotate(24deg) scale(1, 1);}
+ .rectangle-15 {background: var(--dark-brown, #474306); width: 5px; height: 30px; position: absolute; left: 874.74px;top: 564px; transform-origin: 0 0; transform: rotate(24deg) scale(1, 1);}
+ .rectangle-16 {background: var(--dark-brown, #474306); width: 5px; height: 30px; position: absolute; left: 896.51px;top: 564px; transform-origin: 0 0; transform: rotate(24deg) scale(1, 1);}
+ .rectangle-17 {background: var(--dark-brown, #474306); width: 5px; height: 30px; position: absolute; left: 918.28px;top: 564px; transform-origin: 0 0; transform: rotate(24deg) scale(1, 1);}
+ .group-10 {position: absolute; inset: 0;}
+ .group-7 {width: 24px; height: 24px; position: static;}
+ .rectangle-18 {background: var(--dark-brown, #474306); border-radius: 6px; width: 6px; height: 24px; position: absolute; left: 1255px;top: 190px;}
+ .rectangle-19 {background: var(--dark-brown, #474306); border-radius: 6px; width: 6px; height: 24px; position: absolute; left: 1246px;top: 205px; transform-origin: 0 0; transform: rotate(-90deg) scale(1, 1);}
+ .group-9 {width: 24px; height: 24px; position: static;}
+ .rectangle-182 {background: var(--dark-brown, #474306); border-radius: 6px; width: 6px; height: 24px; position: absolute; left: 1281px;top: 206px;}
+ .rectangle-192 {background: var(--dark-brown, #474306); border-radius: 6px; width: 6px; height: 24px; position: absolute; left: 1272px;top: 221px; transform-origin: 0 0; transform: rotate(-90deg) scale(1, 1);}
+ .group-8 {width: 24px; height: 24px; position: static;}
+ .rectangle-183 {background: var(--dark-brown, #474306); border-radius: 6px; width: 6px; height: 24px; position: absolute; left: 1281px;top: 174px;}
+ .rectangle-193 {background: var(--dark-brown, #474306); border-radius: 6px; width: 6px; height: 24px; position: absolute; left: 1272px;top: 189px; transform-origin: 0 0; transform: rotate(-90deg) scale(1, 1);}
+ .group-11 {width: 164px; height: 68px; position: absolute; left: 97px;top: 650px;}
+ .rectangle-1 {background: var(--yellow, #f5ee84); border-radius: 6px; width: 158px; height: 61px; position: absolute; left: 6px;top: 7px;}
+ .rectangle-8 {border-radius: 6px; border-style: solid; border-color: var(--dark-brown, #474306); border-width: 1px; width: 158px; height: 61px; position: absolute; left: 0px;top: 0px;}
+ .resume {color: var(--dark-brown, #474306); text-align: left; font: 400 20px 'Poppins', sans-serif; position: absolute; left: 38px;top: 16px;}
+ .rectangle-82 {width: 560px; height: 400px; position: absolute; left: 97px;top: 2707px;}
+ .rectangle-83 {background: linear-gradient(to left, #f5ee84, #f5ee84); width: 560px; height: 400px; position: absolute; left: 0px;top: 0px;}
+ .unsplash-ub-i-wo-074-ql-u {width: 560px; height: 400px; position: absolute; left: 777px;top: 2707px;}
+ .unsplash-ub-i-wo-074-ql-u2 {background: linear-gradient(to left, #f5ee84, #f5ee84); width: 560px; height: 400px; position: absolute; left: 0px;top: 0px;}
+ .facebook-1 {width: 14px; height: 14px; position: absolute; left: 1211px;top: 44px; overflow: hidden;}
+ .group {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ ._372130-1 {width: 91px; height: 91px; position: absolute; left: 817px;top: 473px; overflow: hidden;}
+ .line {position: absolute; left: 3.79px;top: 3.79px; overflow: visible;}
+ .frame-3 {width: 137px; height: 30px; position: absolute; left: 121px;top: 1652px;}
+ .star {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star2 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star3 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star4 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star5 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .star-half {position: absolute; left: 108px;top: 1px; overflow: visible;}
+ .frame-9 {width: 137px; height: 30px; position: absolute; left: 130px;top: 1733px;}
+ .star6 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star7 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star8 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star9 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star10 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .frame-6 {width: 137px; height: 30px; position: absolute; left: 900px;top: 1652px;}
+ .star11 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star12 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star13 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star14 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star15 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .star-half2 {position: absolute; left: 108px;top: 1px; overflow: visible;}
+ .frame-4 {width: 137px; height: 30px; position: absolute; left: 412px;top: 1653px;}
+ .star16 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star17 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star18 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star19 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star20 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .frame-5 {width: 137px; height: 30px; position: absolute; left: 651px;top: 1653px;}
+ .star21 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star22 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star23 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star24 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star25 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .frame-7 {width: 137px; height: 30px; position: absolute; left: 1133px;top: 1653px;}
+ .star26 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star27 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star28 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star29 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star30 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .frame-10 {width: 137px; height: 30px; position: absolute; left: 412px;top: 1736px;}
+ .star31 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star32 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star33 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star34 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star35 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .frame-12 {width: 137px; height: 30px; position: absolute; left: 900px;top: 1733px;}
+ .star36 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star37 {position: absolute; left: 27px;top: 0px; overflow: visible;}
+ .star38 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star39 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star40 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .frame-11 {width: 137px; height: 30px; position: absolute; left: 651px;top: 1736px;}
+ .star41 {position: absolute; left: 0px;top: 0px; overflow: visible;}
+ .star42 {width: 30px; height: 30px; position: absolute; left: 27px;top: 0px; overflow: hidden;}
+ .vector65 {position: absolute; left: 2.5px;top: 2.5px; overflow: visible;}
+ .star-half3 {position: absolute; left: 1px;top: 1px; overflow: visible;}
+ .star43 {position: absolute; left: 107px;top: 0px; overflow: visible;}
+ .star44 {position: absolute; left: 54px;top: 0px; overflow: visible;}
+ .star45 {position: absolute; left: 81px;top: 0px; overflow: visible;}
+ .group-13 {position: absolute; inset: 0;}
+ .star46 {position: absolute; left: 1133px;top: 1736px; overflow: visible;}
+ .star47 {position: absolute; left: 1160px;top: 1736px; overflow: visible;}
+ .star48 {position: absolute; left: 1240px;top: 1736px; overflow: visible;}
+ .star49 {position: absolute; left: 1187px;top: 1736px; overflow: visible;}
+ .star50 {position: absolute; left: 1214px;top: 1736px; overflow: visible;}
+ .vector75 {position: absolute; left: 1217.33px;top: 1739.33px; overflow: visible;}
+ ._9-december-2022-9-january-2023 {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 123px;top: 2411px;}
+ ._10-july-2023 {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px/40px 'Poppins', sans-serif; position: absolute; left: 123px;top: 2495px;}
+ .ellipse-2 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 104px;top: 2424px;}
+ .ellipse-3 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 104px;top: 2509px;}
