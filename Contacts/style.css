@@ -1,0 +1,29 @@
+.contact, .contact * { box-sizing: border-box; }.contact {background: #fdfceb; width: 1440px; height: 750px; position: relative;}
+ .general-contact-information {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px 'Poppins', sans-serif; position: absolute; left: 554px;top: 257px;}
+ ._3-d-animation {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px 'Poppins', sans-serif; position: absolute; left: 570px;top: 501px;}
+ .email-anim-shrest-gmail-com {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 578px;top: 293px;}
+ .email-vblends-gmail-com {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 578px;top: 527px;}
+ .twitter-com-anim-shrest {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 578px;top: 368px;}
+ .phone-977-9861445308 {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 578px;top: 330px;}
+ .fb-com-anim-shrestha-35 {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 580px;top: 443px;}
+ .instagram-com-anim-shrest {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 578px;top: 406px;}
+ .instagram-com-v-01100011 {color: var(--dark-blue, #03045e); text-align: left; font: 400 24px/44px 'Poppins', sans-serif; position: absolute; left: 578px;top: 567px;}
+ .contact2 {color: #f2c744; text-align: left; font: var(--title, 800 84px/116px 'Poppins', sans-serif); position: absolute; left: 97px;top: 70px; display: flex;align-items: flex-end;justify-content: flex-start}
+ .ellipse-2 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 554px;top: 310px;}
+ .ellipse-3 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 555px;top: 458px;}
+ .ellipse-4 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 554px;top: 422px;}
+ .ellipse-7 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 555px;top: 582px;}
+ .ellipse-8 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 554px;top: 546px;}
+ .ellipse-5 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 554px;top: 383px;}
+ .ellipse-6 {background: var(--dark-blue, #03045e); border-radius: 50%; width: 13px; height: 13px; position: absolute; left: 554px;top: 345px;}
+ .frame-1-1 {width: 300px; height: 300px; position: absolute; left: 167px;top: 257px;}
+ .anim-rajbahak-shrestha {color: var(--dark-blue, #03045e); text-align: left; font: 600 24px 'Poppins', sans-serif; position: absolute; left: 97px;top: 34px;}
+ .group-1 {position: absolute; inset: 0;}
+ .home {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 582px;top: 37px;}
+ .work {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 798px;top: 37px;}
+ .contact3 {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 1026px;top: 37px;}
+ .portfolio {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 898px;top: 37px;}
+ .about {color: var(--dark-blue, #03045e); text-align: left; font: 400 18px 'Poppins', sans-serif; position: absolute; left: 690px;top: 37px;}
+ .twitter-3-1 {position: absolute; left: 1253px;top: 44px; overflow: visible;}
+ .instagram-1 {position: absolute; left: 1232px;top: 44px; overflow: visible;}
+ .group {position: absolute; left: 1211px;top: 44px; overflow: visible;}
